@@ -1,0 +1,141 @@
+/* .admin-page {
+   
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-image {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://res.cloudinary.com/dsfgf7eb7/image/upload/v1718718836/Caregivers-vs-Caretakers_w8rd17.webp') no-repeat center center/cover;
+    filter: blur(10px);
+    z-index: 1;
+  }
+  
+  .admin-container {
+    
+    position: relative;
+    z-index: 2;
+  }
+  
+  .admin-card {
+    
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+  }
+  .admin-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .admin-card .form-label {
+    font-weight: 500;
+  }
+  
+  .admin-card .form-control {
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-card .btn-primary {
+    background-color: #000; 
+    border: none;
+  }
+  
+  .admin-card .btn-primary:hover {
+    background-color: #000; 
+  }
+  
+  .alert {
+    margin-top: 15px;
+  } */
+
+  .admin-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+    z-index: 1;
+  }
+  
+  .admin-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: 200px;
+  }
+  
+  .admin-card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 2rem;
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .admin-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .admin-card .form-label {
+    font-weight: 500;
+  }
+  
+  .admin-card .form-control {
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-card .btn-primary {
+    background-color: #000;
+    border: none;
+  }
+  
+  .admin-card .btn-primary:hover {
+    background-color: #444;
+  }
+  
+  .alert {
+    margin-top: 15px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .btn-primary {
+    color: white;
+  }
